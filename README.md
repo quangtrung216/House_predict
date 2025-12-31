@@ -60,3 +60,6 @@ Chạy demo : cd app
 
 Demo bằng fast api:
 - uvicorn API:app --reload
+
+## Tác giả 
+Lê Quang Trung - MSV: 12423036 - Lớp: 12423TN
