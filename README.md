@@ -36,27 +36,27 @@ kaggle: https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data
 ## Pipeline
 Dataset → EDA → Clean → Encode → Train → Evaluate → Inference
 ## Mô hình sử dụng
-Linear Regression
-Lasso Regression
+- Linear Regression
+- Lasso Regression
 ## Kết quả
 Linear Regression: 
-R2 Score 0.8627447700198984
-MSE score 974.0141202397293
-RMSE score 31.209199288666944
+- R2 Score 0.8627447700198984
+- MSE score 974.0141202397293
+- RMSE score 31.209199288666944
 
 Lasso Regression:
-R2 Score 0.8553577729692834
-MSE score 1026.434996548131
-RMSE score 32.03802422978251
+- R2 Score 0.8553577729692834
+- MSE score 1026.434996548131
+- RMSE score 32.03802422978251
 
 ## Cách chạy
 
-B1: Tạo môi trường venv python 3.10.x
-B2: activate môi trường
-B3: chạy lệnh "pip install -r list_lib.txt"
+- B1: Tạo môi trường venv python 3.10.x
+- B2: activate môi trường
+- B3: chạy lệnh "pip install -r list_lib.txt"
 
 Chạy demo : cd app
-streamlit run streamlit.py
+- streamlit run streamlit.py
 
 Demo bằng fast api:
-uvicorn API:app --reload
+- uvicorn API:app --reload
